@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    /* border: thin solid black !important; */
+    /* important adalah style permanent yang tidak dapat diubah */
+    border: none;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    color: #4e4e4e;
+    font-size: 16pt;
+    background-color: #f5fefd;
+}
+
+header{
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2869AD;
+    position: fixed;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+    float: left;
+}
+
+header ul li {
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header li a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 13px;
+}
+
+header .logo {
+    float: right;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a:hover{
+    color: #5CFEFD;
+    background-color: #1C28EC;
+}
+
+header .logo a img{
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+
+}
+
+.container{
+    padding: 20px;
+    margin-top: 70px;
+}
+
+.container .kagura1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container .kagura1 img{
+    width: 60%;
+    height: 400px;
+    
+}
+
+.content .kagura2 img{
+    width: 60%;
+    height: 400px;
+    background-size: cover;
+    background-position-x: center;
+    
+}
+
+.content .kagura2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    border: none;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 15px;
+    border: thin solid black;
+    background-color: #2869AD;
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.content{
+    margin-bottom: 30px;
+    text-align: justify;
+    padding: 10px;
+    border: none;
+}
+
+.container .content .paragraf1{
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .content .paragraf2{
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.container .content .paragraf3{
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .content .paragraf4{
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .content .paragraf5{
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .content .paragraf6{
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .content .paragraf7{
+    margin-bottom: 10px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p{
+    margin-bottom: 10px;
+    border: none;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.border-sample{
+    margin: 20px;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border: thin solid black;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+
+.section-container .border-sample ol{
+    border: none;
+    padding-left: 15px;
+}
+
+.section-container .border-sample ol li{
+    border: none;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.section-container .border-sample .tabel3{
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 45px;
+}
+
+.section-container .border-sample ol li.skill1{
+    border: none;
+    font-weight: bold;
+}
+
+.section-container .border-sample ol li.skill2{
+    border: none;
+    font-weight: bold;
+}
+
+.section-container .border-sample ol li.skill3{
+    border: none;
+    font-weight: bold;
+}
+.section-container .border-sample ol li{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.section-container .border-sample p.tabel3{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.section-container .border-sample ol p{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.ending{
+    width: 100%;
+    height: 380px;
+    margin-top: 50%;
+}
+
+.ending img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+footer{
+    color: rgb(100, 149, 237);
+    font-size: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #2869AD;
+}
